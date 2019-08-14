@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Wmd_Productneworder",
+    "type": "magento-module",
+    "license": "EULA",
+    "homepage": "",
+    "description": "Gain control over 'New Products' by adding them to default category and giving them a position value.",
+    "authors": [
+    {
+        "name": "Dominik Wyss",
+        "email": "info@digiswiss.ch"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Wmd_Productneworder>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Wmd_Productneworder>
+    </modules>
+</config>

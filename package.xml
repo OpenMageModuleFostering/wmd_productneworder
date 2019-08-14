@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>Wmd_Productneworder</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://wmdextensions.com/WMD-License-Community.txt">EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Gain control over 'New Products' by adding them to default category and giving them a position value.</summary>
+    <description>&lt;p&gt;This extension is replacing the default behavior of displaying new products on the home or other cms page by 'Set Product as New from Date', 'Set Product as New to Date' values being parsed to determine existence and order of the product in the list.&lt;/p&gt;&#xD;
+&lt;p&gt;After the installation of this extension you can add the products you want to have on the 'New Products' list to the default category and give it a position value there.&lt;/p&gt;&#xD;
+&lt;p&gt;Removing the product from the default category products list will remove it from the 'New Products' list again.&lt;/p&gt;&#xD;
+</description>
+    <notes>&lt;p&gt;This module is rewriting the block&lt;/p&gt;&#xD;
+&lt;p&gt;Mage_Catalog_Block_Product_New&lt;/p&gt; &lt;p&gt;Therefore it will not work as expected if you have another extension rewriting that very block. Or the other extension rewriting this block might stop working as it should.&lt;/p&gt;&#xD;
+&lt;p&gt;This will only matter, if the other extension is allready affecting 'New Products' list&lt;/p&gt;</notes>
+    <authors><author><name>Dominik Wyss</name><user>justanother</user><email>info@digiswiss.ch</email></author></authors>
+    <date>2012-11-11</date>
+    <time>16:09:25</time>
+    <contents><target name="magecommunity"><dir name="Wmd"><dir name="Productneworder"><dir name="Block"><dir name="Catalog"><dir name="Product"><file name="New.php" hash="4eb56e25ba8d546513e0a904bebb8da4"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="752139650947ba2424e34426ca597888"/></dir><dir name="etc"><file name="config.xml" hash="7fd8acc523d2d90791603a7c6a4f377e"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Wmd_Productneworder.xml" hash="3f6ce516918cf92e31e7af5405145a24"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

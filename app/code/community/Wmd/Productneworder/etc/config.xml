@@ -1,0 +1,41 @@
+<?xml version="1.0"?> 
+<!--
+/**
+ * WMD Web-Manufaktur/Digiswiss 
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that you find at http://wmdextensions.com/WMD-License-Community.txt
+ *
+ * @category  Wmd
+ * @package   Wmd_Productneworder
+ * @author    Dominik Wyss <info@wmdextensions.com>
+ * @copyright 2011 Dominik Wyss | Digiswiss (http://www.digiswiss.ch)
+ * @link      http://wmdextensions.com/
+ * @license   http://wmdextensions.com/WMD-License-Community.txt 
+ */
+-->
+<config>
+  <modules>
+    <Wmd_Productneworder>
+      <version>1.0.0</version>
+    </Wmd_Productneworder>
+  </modules>
+  <global>
+  	<blocks>
+  		<productneworder>
+  			<class>Wmd_Productneworder_Block</class>
+  		</productneworder>  
+      <catalog>
+          <rewrite>
+              <product_new>Wmd_Productneworder_Block_Catalog_Product_New</product_new>
+          </rewrite>
+      </catalog>
+  	</blocks>
+  	<helpers>
+  		<productneworder>
+  			<class>Wmd_Productneworder_Helper</class>
+  		</productneworder>
+  	</helpers>  
+  </global> 
+</config>
